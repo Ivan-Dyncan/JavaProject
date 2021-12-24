@@ -21,8 +21,8 @@ public class Main {
         //SqlLiteConnection.ReadDB(); //раскоментируйте, чтобы вывести часть таблицы
 
         // 1ое задание
-        Chart chart = new Chart(SqlLiteConnection.FirstTask(),"Shit?",
-                "Shit");
+        Chart chart = new Chart(SqlLiteConnection.FirstTask(),"Диаграмма",
+                "Участники/Виды спорта");
         chart.pack();
         RefineryUtilities.centerFrameOnScreen(chart);
         chart.setVisible(true);
